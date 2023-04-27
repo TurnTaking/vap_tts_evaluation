@@ -1,6 +1,0 @@
-google-cloud-texttospeech
-azure-cognitiveservices-speech
-boto3
-datasets
-pandas
-numpy

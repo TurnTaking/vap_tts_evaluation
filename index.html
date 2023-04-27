@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="VAP TTS" />
+    <title>TTS VAP Evaluation</title>
+    <script src="script.js" defer></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+
+  <body class="bg-gray-100 text-gray-800">
+    <header class="bg-gray-200 py-4">
+      <h1 class="text-center text-3xl font-semibold m-auto">
+        Automatic Evaluation of Turn-taking Cues in Conversational Speech
+        Synthesis
+      </h1>
+    </header>
+
+    <main class="container mx-auto px-4 py-8">
+      <section
+        class="abstract rounded mx-auto my-4 p-4 bg-white shadow-md max-w-2xl"
+      >
+        <h2 class="text-2xl font-semibold mb-4">Abstract</h2>
+        <p>
+          Turn-taking is a fundamental aspect of human communication where
+          speakers convey their intention to either hold, or yield, their turn
+          through prosodic cues. Using the recently proposed Voice Activity
+          Projection model, we propose an automatic evaluation approach to
+          measure these aspects for conversational speech synthesis. We
+          investigate the ability of three commercial, and two open-source,
+          Text-To-Speech (TTS) systems ability to generate turn-taking cues over
+          simulated turns. By varying the stimuli, or controlling the prosody,
+          we analyze the models performances. We show that while commercial TTS
+          largely provide appropriate cues, they often produce ambiguous
+          signals, and that further improvements are possible. TTS, trained on
+          read or spontaneous speech, produce strong turn-hold but weak
+          turn-yield cues. We argue that this approach, that focus on functional
+          aspects of interaction, provides a useful addition to other important
+          speech metrics, such as intelligibility and naturalness.
+        </p>
+      </section>
+
+      <!-- Add this section below the abstract and above the paper sections -->
+      <section class="audio-clips my-4">
+        <h2 class="text-2xl font-semibold mb-4">Audio Clips</h2>
+        <nav class="bg-blue-300 p-4">
+          <div class="container mx-auto">
+            <div class="flex justify-center">
+              <div id="dropdowns-container" class="flex space-x-4">
+                <div class="relative">
+                  <label for="clip-type" class="text-white">Clip Type:</label>
+                  <select
+                    id="clip-type"
+                    class="border bg-white rounded-md border-gray-300 p-1"
+                  ></select>
+                </div>
+                <div class="relative">
+                  <label for="file-name" class="text-white">File Name:</label>
+                  <select
+                    id="file-name"
+                    class="border bg-white rounded-md border-gray-300 p-1"
+                  ></select>
+                </div>
+              </div>
+            </div>
+          </div>
+        </nav>
+
+        <div
+          id="audio-columns"
+          class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-4"
+        >
+          <div class="col-span-1 bg-gray-200 p-2" id="Amazon"></div>
+          <div class="col-span-1 bg-gray-100 p-2" id="Google"></div>
+          <div class="col-span-1 bg-gray-200 p-2" id="Microsoft"></div>
+          <div class="col-span-1 bg-gray-100 p-2" id="TCC"></div>
+          <div class="col-span-1 bg-gray-200 p-2" id="FastPitch"></div>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>

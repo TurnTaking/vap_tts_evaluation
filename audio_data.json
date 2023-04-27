@@ -1,0 +1,38 @@
+{
+  "original": {
+    "MUL0054_9": {
+      "Amazon": "MUL0054_9_SYSTEM_AmazonTTS_original.wav",
+      "Google": "MUL0054_9_SYSTEM_GoogleTTS_original.wav",
+      "Microsoft": "MUL0054_9_SYSTEM_MicrosoftTTS_original.wav",
+      "TCC": "MUL0054_9_SYSTEM_TCC_original.wav",
+      "FastPitch": "MUL0054_9_SYSTEM_fp_original.wav"
+    }
+  },
+  "comma": {
+    "MUL0054_9": {
+      "Amazon": "MUL0054_9_SYSTEM_AmazonTTS_comma.wav",
+      "Google": "MUL0054_9_SYSTEM_GoogleTTS_comma.wav",
+      "Microsoft": "MUL0054_9_SYSTEM_MicrosoftTTS_comma.wav",
+      "TCC": "MUL0054_9_SYSTEM_TCC_comma.wav",
+      "FastPitch": "MUL0054_9_SYSTEM_fp_comma.wav"
+    }
+  },
+  "filler": {
+    "MUL0054_9": {
+      "Amazon": "MUL0054_9_SYSTEM_AmazonTTS_filler.wav",
+      "Google": "MUL0054_9_SYSTEM_GoogleTTS_filler.wav",
+      "Microsoft": "MUL0054_9_SYSTEM_MicrosoftTTS_filler.wav",
+      "TCC": "MUL0054_9_SYSTEM_TCC_filler.wav",
+      "FastPitch": "MUL0054_9_SYSTEM_fp_filler.wav"
+    }
+  },
+  "fsh": {
+    "MUL0054_9": {
+      "Amazon": "MUL0054_9_SYSTEM_AmazonTTS_fsh.wav",
+      "Google": "MUL0054_9_SYSTEM_GoogleTTS_fsh.wav",
+      "Microsoft": "MUL0054_9_SYSTEM_MicrosoftTTS_fsh.wav",
+      "TCC": "MUL0054_9_SYSTEM_TCC_fsh.wav",
+      "FastPitch": "MUL0054_9_SYSTEM_fp_fsh.wav"
+    }
+  }
+}
